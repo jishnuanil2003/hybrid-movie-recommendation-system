@@ -1,0 +1,17 @@
+Request:
+curl "http://localhost:8000/recommend?title=thor"
+
+Response Structure:
+{
+  "message": "Success",
+  "data": [
+    {
+      "movieId": 106072,
+      "title": "Thor: The Dark World (2013)",
+      "genres": "Action|Adventure|Fantasy|IMAX",
+      "score": ...,
+      "source": "hybrid"
+    },
+    ...
+  ]
+}

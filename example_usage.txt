@@ -1,0 +1,17 @@
+Request:
+GET http://localhost:8000/recommend?title=Toy%20Story
+
+Response:
+{
+    "message": "Success",
+    "data": [
+        {
+            "movieId": 3114,
+            "title": "Toy Story 2 (1999)",
+            "genres": "Adventure|Animation|Children|Comedy|Fantasy",
+            "score": 0.57,
+            "source": "hybrid"
+        },
+        ...
+    ]
+}
